@@ -5,7 +5,7 @@ Bin Liang
 
 ### Describe
 
-In this part, we neeed a input which can be a text file or just a string. And the user can request the language and the gender of the speaker. Then, run the script, we can get a `.wav` file which can be the input in part-iii.
+In this part, we neeed a input which should be a text file or just a string. Then the user should request the language and the gender of the speaker. After that, run the script, we can get a `.wav` file which can be the input in part-iii.
 
 ### Required Packages 
 
@@ -33,8 +33,8 @@ we just need some very normal package:
 ```
 
 The directorys:
-1. text_input: if you want to using the text file to be the input of `generate_speech.py`, pleaser put the text file here.
-2. TTS_checkpoints: To save the `.pth` file here, but from now on we do not need it.
+1. text_input: if you want to use the text file to be the input in `generate_speech.py`, pleaser put the text file here.
+2. TTS_checkpoints: Saving the `.pth` file here, but from now on we do not need it.
 3. wav_output: the `.wav` file which we get wiul in this directory.
 
 The scripts:
